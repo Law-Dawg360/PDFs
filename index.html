@@ -48,7 +48,7 @@
     // JavaScript function to load PDF into the container
     function loadPDF(url, title) {
         var pdfContainer = document.getElementById('pdf-container');
-        pdfContainer.innerHTML = '<h2>' + title + '</h2><iframe src="' + url + '" width="100%" height="500px"></iframe>';
+        pdfContainer.innerHTML = '<h2>' + title + '</h2><embed src="' + url + '" type="application/pdf" width="100%" height="500px">';
     }
 </script>
 
